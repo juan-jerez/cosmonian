@@ -6,6 +6,8 @@ Esper siguiendo la arquitectura ECS.
 - **Jugar en el navegador:** https://juan-jerez.itch.io/cosmonian
 - **Documento de arquitectura y post-mortem:** [docs/arquitectura_y_postmortem.pdf](docs/arquitectura_y_postmortem.pdf)
 - **Post-mortem individual:** [docs/postmortem_individual.pdf](docs/postmortem_individual.pdf)
+- **Vídeo de presentación:** [docs/presentacion_video.mp4](docs/presentacion_video.mp4)
+- **Diapositivas de la presentación:** [docs/presentacion_diapositivas.pdf](docs/presentacion_diapositivas.pdf)
 
 ## Estructura
 
