@@ -1,0 +1,16 @@
+{
+    "sprites": {
+        "vertical": "bullet_vertical",
+        "horizontal": "bullet_horizontal",
+        "diagonal": "bullet_diagonal"
+    },
+    "velocity": 260,
+    "spawn_offset": 9,
+    "triple_offset": 5,
+    "max_bullets": 12,
+    "sound": "assets/snd/laser.ogg",
+    "hitbox": {
+        "w": 6,
+        "h": 6
+    }
+}

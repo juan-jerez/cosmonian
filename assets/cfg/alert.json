@@ -1,0 +1,67 @@
+{
+    "styles": {
+        "GREEN": {
+            "text": "GREEN",
+            "bar": {
+                "r": 0,
+                "g": 200,
+                "b": 110
+            },
+            "text_color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+            }
+        },
+        "YELLOW": {
+            "text": "YELLOW",
+            "bar": {
+                "r": 255,
+                "g": 220,
+                "b": 0
+            },
+            "text_color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+            }
+        },
+        "RED": {
+            "text": "RED",
+            "bar": {
+                "r": 220,
+                "g": 0,
+                "b": 0
+            },
+            "text_color": {
+                "r": 255,
+                "g": 255,
+                "b": 255
+            }
+        },
+        "SPY": {
+            "text": "¡ESPIA!",
+            "bar": {
+                "r": 150,
+                "g": 0,
+                "b": 200
+            },
+            "text_color": {
+                "r": 255,
+                "g": 255,
+                "b": 255
+            }
+        }
+    },
+    "spy_blink": 0.25,
+    "sounds": {
+        "GREEN": "assets/snd/alert_green.ogg",
+        "YELLOW": "assets/snd/alert_yellow.ogg",
+        "RED": "assets/snd/alert_red.ogg"
+    },
+    "red": {
+        "spawn_rate": 2.0,
+        "speed": 1.6,
+        "max_enemies": 1.5
+    }
+}

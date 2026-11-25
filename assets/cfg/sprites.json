@@ -1,0 +1,303 @@
+{
+    "player": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 124,
+            "y": 7,
+            "w": 15,
+            "h": 18
+        }
+    },
+    "bullet_vertical": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 4,
+            "y": 75,
+            "w": 4,
+            "h": 6
+        }
+    },
+    "bullet_horizontal": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 13,
+            "y": 76,
+            "w": 6,
+            "h": 4
+        }
+    },
+    "bullet_diagonal": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 23,
+            "y": 75,
+            "w": 7,
+            "h": 6
+        }
+    },
+    "explosion": {
+        "image": "assets/img/naves.png",
+        "frames": [
+            {
+                "x": 0,
+                "y": 133,
+                "w": 16,
+                "h": 16
+            },
+            {
+                "x": 16,
+                "y": 133,
+                "w": 16,
+                "h": 16
+            },
+            {
+                "x": 32,
+                "y": 133,
+                "w": 16,
+                "h": 16
+            },
+            {
+                "x": 48,
+                "y": 133,
+                "w": 16,
+                "h": 16
+            },
+            {
+                "x": 64,
+                "y": 133,
+                "w": 16,
+                "h": 16
+            },
+            {
+                "x": 80,
+                "y": 133,
+                "w": 16,
+                "h": 16
+            }
+        ]
+    },
+    "explosion_mine": {
+        "image": "assets/img/naves.png",
+        "frames": [
+            {
+                "x": 103,
+                "y": 133,
+                "w": 16,
+                "h": 16
+            },
+            {
+                "x": 119,
+                "y": 133,
+                "w": 16,
+                "h": 16
+            },
+            {
+                "x": 135,
+                "y": 133,
+                "w": 16,
+                "h": 16
+            },
+            {
+                "x": 151,
+                "y": 133,
+                "w": 16,
+                "h": 16
+            },
+            {
+                "x": 167,
+                "y": 133,
+                "w": 16,
+                "h": 16
+            },
+            {
+                "x": 183,
+                "y": 133,
+                "w": 16,
+                "h": 16
+            }
+        ]
+    },
+    "base_turret": {
+        "image": "assets/img/naves.png",
+        "frames": [
+            {
+                "x": 0,
+                "y": 9,
+                "w": 16,
+                "h": 16
+            },
+            {
+                "x": 21,
+                "y": 9,
+                "w": 16,
+                "h": 16
+            },
+            {
+                "x": 42,
+                "y": 9,
+                "w": 16,
+                "h": 16
+            },
+            {
+                "x": 63,
+                "y": 9,
+                "w": 16,
+                "h": 16
+            }
+        ]
+    },
+    "base_core": {
+        "image": "assets/img/naves.png",
+        "frames": [
+            {
+                "x": 0,
+                "y": 46,
+                "w": 20,
+                "h": 20
+            },
+            {
+                "x": 24,
+                "y": 46,
+                "w": 20,
+                "h": 20
+            },
+            {
+                "x": 48,
+                "y": 46,
+                "w": 20,
+                "h": 20
+            },
+            {
+                "x": 72,
+                "y": 46,
+                "w": 20,
+                "h": 20
+            }
+        ]
+    },
+    "base_arc": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 90,
+            "y": 0,
+            "w": 13,
+            "h": 42
+        }
+    },
+    "base_connector": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 98,
+            "y": 19,
+            "w": 8,
+            "h": 4
+        }
+    },
+    "rock_1": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 149,
+            "y": 34,
+            "w": 15,
+            "h": 11
+        }
+    },
+    "rock_2": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 167,
+            "y": 31,
+            "w": 14,
+            "h": 14
+        }
+    },
+    "rock_3": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 182,
+            "y": 33,
+            "w": 14,
+            "h": 12
+        }
+    },
+    "hard_rock_1": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 148,
+            "y": 9,
+            "w": 15,
+            "h": 11
+        }
+    },
+    "hard_rock_2": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 166,
+            "y": 6,
+            "w": 14,
+            "h": 14
+        }
+    },
+    "hard_rock_3": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 181,
+            "y": 8,
+            "w": 14,
+            "h": 12
+        }
+    },
+    "mine": {
+        "image": "assets/img/naves.png",
+        "frames": [
+            {
+                "x": 0,
+                "y": 87,
+                "w": 15,
+                "h": 15
+            },
+            {
+                "x": 18,
+                "y": 87,
+                "w": 15,
+                "h": 15
+            }
+        ]
+    },
+    "enemy_i": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 0,
+            "y": 111,
+            "w": 14,
+            "h": 14
+        }
+    },
+    "enemy_p": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 20,
+            "y": 113,
+            "w": 13,
+            "h": 12
+        }
+    },
+    "enemy_e": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 41,
+            "y": 109,
+            "w": 7,
+            "h": 16
+        }
+    },
+    "enemy_spy": {
+        "image": "assets/img/naves.png",
+        "rect": {
+            "x": 56,
+            "y": 112,
+            "w": 11,
+            "h": 13
+        }
+    }
+}

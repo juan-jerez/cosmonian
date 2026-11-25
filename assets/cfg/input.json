@@ -1,0 +1,418 @@
+{
+    "axis_thresholds": {
+        "press": 0.5,
+        "release": 0.3
+    },
+    "menu": {
+        "MENU_UP": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_UP"
+            },
+            {
+                "type": "JOY_HAT",
+                "direction": "UP"
+            },
+            {
+                "type": "JOY_AXIS",
+                "axis": 1,
+                "direction": -1
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 12
+            }
+        ],
+        "MENU_DOWN": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_DOWN"
+            },
+            {
+                "type": "JOY_HAT",
+                "direction": "DOWN"
+            },
+            {
+                "type": "JOY_AXIS",
+                "axis": 1,
+                "direction": 1
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 13
+            }
+        ],
+        "MENU_ACCEPT": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_z"
+            },
+            {
+                "type": "KEYBOARD",
+                "key": "K_RETURN"
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 0
+            }
+        ],
+        "MENU_BACK": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_x"
+            },
+            {
+                "type": "KEYBOARD",
+                "key": "K_ESCAPE"
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 1
+            }
+        ]
+    },
+    "play": {
+        "PLAYER_LEFT": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_LEFT"
+            },
+            {
+                "type": "JOY_HAT",
+                "direction": "LEFT"
+            },
+            {
+                "type": "JOY_AXIS",
+                "axis": 0,
+                "direction": -1
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 14
+            }
+        ],
+        "PLAYER_RIGHT": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_RIGHT"
+            },
+            {
+                "type": "JOY_HAT",
+                "direction": "RIGHT"
+            },
+            {
+                "type": "JOY_AXIS",
+                "axis": 0,
+                "direction": 1
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 15
+            }
+        ],
+        "PLAYER_UP": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_UP"
+            },
+            {
+                "type": "JOY_HAT",
+                "direction": "UP"
+            },
+            {
+                "type": "JOY_AXIS",
+                "axis": 1,
+                "direction": -1
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 12
+            }
+        ],
+        "PLAYER_DOWN": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_DOWN"
+            },
+            {
+                "type": "JOY_HAT",
+                "direction": "DOWN"
+            },
+            {
+                "type": "JOY_AXIS",
+                "axis": 1,
+                "direction": 1
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 13
+            }
+        ],
+        "PLAYER_FIRE": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_z"
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 0
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 2
+            }
+        ],
+        "PLAYER_SPECIAL": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_x"
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 1
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 3
+            }
+        ],
+        "PAUSE": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_p"
+            },
+            {
+                "type": "KEYBOARD",
+                "key": "K_ESCAPE"
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 7
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 9
+            }
+        ],
+        "TOGGLE_HITBOXES": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_F2"
+            }
+        ],
+        "CHEAT_TOGGLE": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_t"
+            }
+        ],
+        "CHEAT_NEXT_ROUND": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_n"
+            }
+        ],
+        "CHEAT_ALERT": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_1"
+            }
+        ],
+        "CHEAT_SPY": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_2"
+            }
+        ],
+        "CHEAT_FORMATION": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_3"
+            }
+        ],
+        "CHEAT_SHIELD": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_4"
+            }
+        ],
+        "EDITOR_TOGGLE": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_e"
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 6
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 8
+            }
+        ]
+    },
+    "editor": {
+        "EDITOR_UP": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_UP"
+            },
+            {
+                "type": "JOY_HAT",
+                "direction": "UP"
+            },
+            {
+                "type": "JOY_AXIS",
+                "axis": 1,
+                "direction": -1
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 12
+            }
+        ],
+        "EDITOR_DOWN": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_DOWN"
+            },
+            {
+                "type": "JOY_HAT",
+                "direction": "DOWN"
+            },
+            {
+                "type": "JOY_AXIS",
+                "axis": 1,
+                "direction": 1
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 13
+            }
+        ],
+        "EDITOR_LEFT": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_LEFT"
+            },
+            {
+                "type": "JOY_HAT",
+                "direction": "LEFT"
+            },
+            {
+                "type": "JOY_AXIS",
+                "axis": 0,
+                "direction": -1
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 14
+            }
+        ],
+        "EDITOR_RIGHT": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_RIGHT"
+            },
+            {
+                "type": "JOY_HAT",
+                "direction": "RIGHT"
+            },
+            {
+                "type": "JOY_AXIS",
+                "axis": 0,
+                "direction": 1
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 15
+            }
+        ],
+        "EDITOR_FAST": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_LSHIFT"
+            },
+            {
+                "type": "KEYBOARD",
+                "key": "K_RSHIFT"
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 5
+            }
+        ],
+        "EDITOR_PLACE": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_z"
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 0
+            }
+        ],
+        "EDITOR_REMOVE": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_x"
+            },
+            {
+                "type": "KEYBOARD",
+                "key": "K_DELETE"
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 1
+            }
+        ],
+        "EDITOR_ROTATE": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_r"
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 3
+            }
+        ],
+        "EDITOR_SPAWN": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_s"
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 2
+            }
+        ],
+        "EDITOR_OPTIONS": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_o"
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 7
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 9
+            }
+        ],
+        "EDITOR_TOGGLE": [
+            {
+                "type": "KEYBOARD",
+                "key": "K_e"
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 6
+            },
+            {
+                "type": "JOY_BUTTON",
+                "button": 8
+            }
+        ]
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "music": "assets/mus/orbital_colossus.ogg",
+    "triple_shot": true,
+    "start_text": "¡JEFE FINAL!",
+    "world": {
+        "size": {
+            "w": 1056,
+            "h": 1344
+        },
+        "star_layers": [
+            {
+                "number": 60,
+                "size": 1,
+                "blink_period": 3.0,
+                "parallax": 0.15,
+                "brightness": 0.5,
+                "hue": {
+                    "min": 280,
+                    "max": 380
+                }
+            },
+            {
+                "number": 35,
+                "size": 1,
+                "blink_period": 2.5,
+                "parallax": 0.4,
+                "brightness": 0.8,
+                "hue": {
+                    "min": 280,
+                    "max": 380
+                }
+            },
+            {
+                "number": 15,
+                "size": 2,
+                "blink_period": 2.0,
+                "parallax": 0.75,
+                "brightness": 1.0,
+                "hue": {
+                    "min": 280,
+                    "max": 380
+                }
+            }
+        ]
+    },
+    "player_spawn": {
+        "position": {
+            "x": 528,
+            "y": 900
+        },
+        "direction": 0
+    },
+    "obstacles": {
+        "rocks": 18,
+        "mines": 6,
+        "hard_rocks": 0
+    },
+    "alert": {
+        "green_time": 2.0,
+        "base_green_time": 3.0,
+        "red_after": 99999
+    },
+    "spy": {
+        "interval": 99999
+    },
+    "shield_item": {
+        "interval": 12.0,
+        "chance": 0.8
+    },
+    "rounds": [
+        {
+            "boss": true,
+            "bases": [],
+            "base_behavior": {
+                "core_mode": "open",
+                "core_open_time": 3.0,
+                "core_closed_time": 2.5,
+                "turret_interval": {
+                    "min": 3.0,
+                    "max": 5.0
+                },
+                "spawn_e": false
+            },
+            "enemies": {
+                "spawn_interval": 5.0,
+                "max_enemies": 0,
+                "types": {
+                    "I": 1
+                },
+                "accuracy": 0.5
+            },
+            "formations": {
+                "interval": 99999,
+                "shapes": {
+                    "I": 1
+                },
+                "kinds": {
+                    "I": 1
+                }
+            },
+            "difficulty": 10
+        }
+    ]
+}

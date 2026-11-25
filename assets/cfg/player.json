@@ -1,0 +1,23 @@
+{
+    "sprite": "player",
+    "max_speed": 100,
+    "acceleration": 60,
+    "turn_time": 0.04,
+    "sound": "assets/snd/rocket_engine.ogg",
+    "sound_volume": 0.35,
+    "release_grace": 0.1,
+    "hitbox": {
+        "w": 12,
+        "h": 12
+    },
+    "death": {
+        "explosions": 5,
+        "interval": 0.12,
+        "radius": 10,
+        "respawn_time": 2.5
+    },
+    "respawn_protection": {
+        "duration": 2.0,
+        "blink": 0.08
+    }
+}

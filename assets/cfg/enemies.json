@@ -1,0 +1,82 @@
+{
+    "I": {
+        "sprite": "enemy_i",
+        "points": 50,
+        "speed_factor": 1.15,
+        "max_force": 420,
+        "hitbox": {
+            "w": 12,
+            "h": 12
+        },
+        "behavior": "chase_then_leave",
+        "chase_time": {
+            "min": 5.0,
+            "max": 8.0
+        }
+    },
+    "P": {
+        "sprite": "enemy_p",
+        "points": 60,
+        "speed_factor": 1.2,
+        "max_force": 380,
+        "hitbox": {
+            "w": 12,
+            "h": 11
+        },
+        "behavior": "chase_then_wander",
+        "chase_time": {
+            "min": 1.0,
+            "max": 2.0
+        },
+        "wander_jitter": 240
+    },
+    "E": {
+        "sprite": "enemy_e",
+        "points": 70,
+        "speed_factor": 1.8,
+        "max_force": 0,
+        "hitbox": {
+            "w": 9,
+            "h": 9
+        },
+        "behavior": "straight"
+    },
+    "steering": {
+        "deviation": 90,
+        "aim_interval": 1.0
+    },
+    "spawn": {
+        "margin": 24,
+        "despawn_distance": 420,
+        "base_grace": 0.5,
+        "core_spawn_range": 260,
+        "core_spawn_offset": 10
+    },
+    "SPY": {
+        "sprite": "enemy_spy",
+        "speed_factor": 1.4,
+        "hitbox": {
+            "w": 11,
+            "h": 11
+        },
+        "sound": "assets/snd/spy.ogg",
+        "points_by_distance": [
+            {
+                "max_distance": 40,
+                "points": 200
+            },
+            {
+                "max_distance": 80,
+                "points": 400
+            },
+            {
+                "max_distance": 120,
+                "points": 800
+            },
+            {
+                "max_distance": null,
+                "points": 1600
+            }
+        ]
+    }
+}

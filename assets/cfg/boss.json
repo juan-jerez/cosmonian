@@ -1,0 +1,151 @@
+{
+    "image": "assets/img/jefe.png",
+    "scale": 1.25,
+    "hitbox": {
+        "w": 64,
+        "h": 64
+    },
+    "hp": 60,
+    "points": 10000,
+    "speed_factor": 0.45,
+    "max_force": 60,
+    "spawn_offset": {
+        "x": 0,
+        "y": 150
+    },
+    "move_time": {
+        "min": 2.5,
+        "max": 4.0
+    },
+    "attack_weights": {
+        "burst": 2,
+        "homing": 2,
+        "formations": 1
+    },
+    "burst": {
+        "charge_time": 2.0,
+        "rings": 2,
+        "ring_delay": 0.3,
+        "bullets_per_ring": 20,
+        "bullet": {
+            "size": {
+                "w": 4,
+                "h": 4
+            },
+            "color": {
+                "r": 255,
+                "g": 90,
+                "b": 200
+            },
+            "velocity": 85,
+            "lifetime": 4.5,
+            "hitbox": {
+                "w": 6,
+                "h": 6
+            }
+        },
+        "sound_charge": "assets/snd/boss_charge.ogg",
+        "sound_fire": "assets/snd/boss_burst.ogg"
+    },
+    "homing": {
+        "hp": 3,
+        "speed_factor": 0.9,
+        "max_force": 110,
+        "lifetime": 10.0,
+        "radius": 4,
+        "color": {
+            "r": 255,
+            "g": 60,
+            "b": 60
+        },
+        "core_color": {
+            "r": 255,
+            "g": 230,
+            "b": 120
+        },
+        "hitbox": {
+            "w": 10,
+            "h": 10
+        },
+        "points": 100,
+        "spawn_distance": 44,
+        "sound": "assets/snd/laser.ogg",
+        "hit_sound": "assets/snd/denied.ogg"
+    },
+    "formations": {
+        "side_offset": 70,
+        "max_active": 2,
+        "shapes": {
+            "I": 1,
+            "V": 1,
+            "X": 1,
+            "+": 1
+        },
+        "kinds": {
+            "I": 2,
+            "P": 1,
+            "E": 1
+        }
+    },
+    "flash": {
+        "tint": {
+            "r": 200,
+            "g": 200,
+            "b": 200
+        },
+        "hit_time": 0.06,
+        "charge_blink": 0.1
+    },
+    "death": {
+        "explosions": 18,
+        "interval": 0.07,
+        "radius": 40
+    },
+    "screen_shake": {
+        "duration": 0.8,
+        "intensity": 6
+    },
+    "minimap_color": {
+        "r": 255,
+        "g": 40,
+        "b": 40
+    },
+    "bar": {
+        "label": {
+            "text": "JEFE",
+            "position": {
+                "x": 4,
+                "y": 10
+            },
+            "align": "left",
+            "color": {
+                "r": 255,
+                "g": 90,
+                "b": 90
+            }
+        },
+        "rect": {
+            "x": 40,
+            "y": 7,
+            "w": 176,
+            "h": 6
+        },
+        "colors": {
+            "back": {
+                "r": 60,
+                "g": 20,
+                "b": 30
+            },
+            "fill": {
+                "r": 255,
+                "g": 60,
+                "b": 60
+            },
+            "border": {
+                "r": 255,
+                "g": 200,
+                "b": 200
+            }
+        }
+    }
+}

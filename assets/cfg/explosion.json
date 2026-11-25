@@ -1,0 +1,5 @@
+{
+    "sprite": "explosion",
+    "framerate": 14,
+    "sound": "assets/snd/explosion.ogg"
+}

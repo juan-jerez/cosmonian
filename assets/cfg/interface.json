@@ -1,0 +1,1246 @@
+{
+    "text_defaults": {
+        "font": "assets/fnt/PressStart2P.ttf",
+        "size": 8,
+        "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+        }
+    },
+    "play_area": {
+        "w": 224,
+        "h": 256
+    },
+    "menu_stars": {
+        "number": 80,
+        "size": 1,
+        "blink_period": 2.5,
+        "fall_speed": 20
+    },
+    "sidebar": {
+        "texts": [
+            {
+                "text": "HI-SCORE",
+                "position": {
+                    "x": 232,
+                    "y": 12
+                },
+                "color": {
+                    "r": 255,
+                    "g": 0,
+                    "b": 0
+                },
+                "align": "left"
+            },
+            {
+                "text": "1UP",
+                "position": {
+                    "x": 232,
+                    "y": 40
+                },
+                "align": "left"
+            },
+            {
+                "text": "CONDITION",
+                "position": {
+                    "x": 272,
+                    "y": 68
+                }
+            },
+            {
+                "text": "ROUND",
+                "position": {
+                    "x": 232,
+                    "y": 244
+                },
+                "align": "left"
+            }
+        ],
+        "hi_score": {
+            "text": "",
+            "position": {
+                "x": 312,
+                "y": 24
+            },
+            "align": "right"
+        },
+        "score": {
+            "text": "",
+            "position": {
+                "x": 312,
+                "y": 52
+            },
+            "align": "right"
+        },
+        "round": {
+            "text": "",
+            "position": {
+                "x": 312,
+                "y": 244
+            },
+            "align": "right"
+        },
+        "condition_bar": {
+            "color": {
+                "r": 0,
+                "g": 200,
+                "b": 110
+            },
+            "rect": {
+                "x": 224,
+                "y": 77,
+                "w": 96,
+                "h": 14
+            }
+        },
+        "condition": {
+            "text": "GREEN",
+            "position": {
+                "x": 272,
+                "y": 84
+            },
+            "color": {
+                "r": 0,
+                "g": 0,
+                "b": 0
+            }
+        },
+        "radar": {
+            "color": {
+                "r": 148,
+                "g": 142,
+                "b": 255
+            },
+            "rect": {
+                "x": 228,
+                "y": 98,
+                "w": 88,
+                "h": 112
+            }
+        },
+        "lives_count": {
+            "text": "",
+            "position": {
+                "x": 316,
+                "y": 230
+            },
+            "align": "right"
+        }
+    },
+    "intro": {
+        "times": {
+            "stars": 2.5,
+            "wipe": 0.4,
+            "slide": 0.9,
+            "stagger": 0.1,
+            "hold": 3.0,
+            "slide_out": 0.5
+        },
+        "screen_stars": [
+            {
+                "text": "MISO",
+                "position": {
+                    "x": 112,
+                    "y": 116
+                },
+                "color": {
+                    "r": 255,
+                    "g": 0,
+                    "b": 0
+                }
+            },
+            {
+                "text": "PRESENTA",
+                "position": {
+                    "x": 112,
+                    "y": 134
+                }
+            }
+        ],
+        "panel": {
+            "color": {
+                "r": 16,
+                "g": 24,
+                "b": 72
+            },
+            "rect": {
+                "x": 0,
+                "y": 24,
+                "w": 224,
+                "h": 208
+            }
+        },
+        "title_image": {
+            "image": "assets/img/titulo.png",
+            "position": {
+                "x": 112,
+                "y": 70
+            }
+        },
+        "credits": [
+            {
+                "text": "PROGRAMACION",
+                "position": {
+                    "x": 112,
+                    "y": 124
+                },
+                "color": {
+                    "r": 255,
+                    "g": 220,
+                    "b": 0
+                }
+            },
+            {
+                "text": "JUAN JEREZ",
+                "position": {
+                    "x": 112,
+                    "y": 136
+                }
+            },
+            {
+                "text": "ARTE",
+                "position": {
+                    "x": 112,
+                    "y": 154
+                },
+                "color": {
+                    "r": 255,
+                    "g": 220,
+                    "b": 0
+                }
+            },
+            {
+                "text": "DIANA PACHECO",
+                "position": {
+                    "x": 112,
+                    "y": 166
+                }
+            },
+            {
+                "text": "MUSICA",
+                "position": {
+                    "x": 112,
+                    "y": 184
+                },
+                "color": {
+                    "r": 255,
+                    "g": 220,
+                    "b": 0
+                }
+            },
+            {
+                "text": "MATTHEW PABLO",
+                "position": {
+                    "x": 112,
+                    "y": 196
+                }
+            }
+        ]
+    },
+    "menu_style": {
+        "colors": {
+            "normal": {
+                "r": 150,
+                "g": 150,
+                "b": 150
+            },
+            "selected": {
+                "r": 255,
+                "g": 255,
+                "b": 255
+            }
+        },
+        "spacing": 16,
+        "cursor": {
+            "sprite": "player",
+            "angle": -90,
+            "offset_x": 14
+        },
+        "sound_accept": "assets/snd/ready.ogg"
+    },
+    "title": {
+        "logo": {
+            "image": "assets/img/titulo.png",
+            "position": {
+                "x": 112,
+                "y": 60
+            }
+        },
+        "menu": {
+            "position": {
+                "x": 64,
+                "y": 124
+            },
+            "options": [
+                {
+                    "text": "JUGAR",
+                    "action": "PLAY"
+                },
+                {
+                    "text": "NIVELES",
+                    "action": "LEVELS"
+                },
+                {
+                    "text": "INSTRUCCIONES",
+                    "action": "INSTRUCTIONS"
+                },
+                {
+                    "text": "CREDITOS",
+                    "action": "CREDITS"
+                }
+            ]
+        },
+        "texts": [
+            {
+                "text": "© 2026 JUAN JEREZ",
+                "position": {
+                    "x": 112,
+                    "y": 236
+                },
+                "color": {
+                    "r": 150,
+                    "g": 150,
+                    "b": 150
+                }
+            }
+        ]
+    },
+    "level_select": {
+        "menu": {
+            "position": {
+                "x": 80,
+                "y": 64
+            }
+        },
+        "texts": [
+            {
+                "text": "ELIGE UN NIVEL",
+                "position": {
+                    "x": 112,
+                    "y": 32
+                },
+                "color": {
+                    "r": 255,
+                    "g": 220,
+                    "b": 0
+                }
+            },
+            {
+                "text": "Z:JUGAR  X:VOLVER",
+                "position": {
+                    "x": 112,
+                    "y": 236
+                },
+                "color": {
+                    "r": 150,
+                    "g": 150,
+                    "b": 150
+                }
+            }
+        ]
+    },
+    "instructions": {
+        "texts": [
+            {
+                "text": "INSTRUCCIONES",
+                "position": {
+                    "x": 112,
+                    "y": 24
+                },
+                "color": {
+                    "r": 255,
+                    "g": 220,
+                    "b": 0
+                }
+            },
+            {
+                "text": "DESTRUYE TODAS LAS BASES",
+                "position": {
+                    "x": 112,
+                    "y": 48
+                }
+            },
+            {
+                "text": "PARA PASAR DE RONDA.",
+                "position": {
+                    "x": 112,
+                    "y": 60
+                }
+            },
+            {
+                "text": "UNA BASE CAE AL DESTRUIR",
+                "position": {
+                    "x": 112,
+                    "y": 80
+                }
+            },
+            {
+                "text": "SUS SEIS TORRES O CON UN",
+                "position": {
+                    "x": 112,
+                    "y": 92
+                }
+            },
+            {
+                "text": "DISPARO A SU NUCLEO.",
+                "position": {
+                    "x": 112,
+                    "y": 104
+                }
+            },
+            {
+                "text": "FLECHAS  DIRECCION",
+                "position": {
+                    "x": 24,
+                    "y": 132
+                },
+                "align": "left"
+            },
+            {
+                "text": "Z        DISPARO DOBLE",
+                "position": {
+                    "x": 24,
+                    "y": 146
+                },
+                "align": "left"
+            },
+            {
+                "text": "X        ESCUDO",
+                "position": {
+                    "x": 24,
+                    "y": 160
+                },
+                "align": "left"
+            },
+            {
+                "text": "P        PAUSA",
+                "position": {
+                    "x": 24,
+                    "y": 174
+                },
+                "align": "left"
+            },
+            {
+                "text": "T/E      TRAMPA / EDITOR",
+                "position": {
+                    "x": 24,
+                    "y": 188
+                },
+                "align": "left"
+            },
+            {
+                "text": "MANDO: CRUCETA A B START",
+                "position": {
+                    "x": 24,
+                    "y": 204
+                },
+                "align": "left",
+                "color": {
+                    "r": 170,
+                    "g": 170,
+                    "b": 170
+                }
+            },
+            {
+                "text": "¡CUIDADO CON LAS MINAS!",
+                "position": {
+                    "x": 112,
+                    "y": 220
+                },
+                "color": {
+                    "r": 120,
+                    "g": 220,
+                    "b": 255
+                }
+            },
+            {
+                "text": "Z/X:VOLVER",
+                "position": {
+                    "x": 112,
+                    "y": 236
+                },
+                "color": {
+                    "r": 150,
+                    "g": 150,
+                    "b": 150
+                }
+            }
+        ]
+    },
+    "credits": {
+        "texts": [
+            {
+                "text": "CREDITOS",
+                "position": {
+                    "x": 112,
+                    "y": 24
+                },
+                "color": {
+                    "r": 255,
+                    "g": 220,
+                    "b": 0
+                }
+            },
+            {
+                "text": "PROGRAMACION",
+                "position": {
+                    "x": 112,
+                    "y": 48
+                },
+                "color": {
+                    "r": 255,
+                    "g": 220,
+                    "b": 0
+                }
+            },
+            {
+                "text": "JUAN JEREZ",
+                "position": {
+                    "x": 112,
+                    "y": 60
+                }
+            },
+            {
+                "text": "ARTE (CC-BY 4.0)",
+                "position": {
+                    "x": 112,
+                    "y": 80
+                },
+                "color": {
+                    "r": 255,
+                    "g": 220,
+                    "b": 0
+                }
+            },
+            {
+                "text": "DIANA PACHECO",
+                "position": {
+                    "x": 112,
+                    "y": 92
+                }
+            },
+            {
+                "text": "MUSICA (CC-BY 3.0)",
+                "position": {
+                    "x": 112,
+                    "y": 112
+                },
+                "color": {
+                    "r": 255,
+                    "g": 220,
+                    "b": 0
+                }
+            },
+            {
+                "text": "MATTHEW PABLO",
+                "position": {
+                    "x": 112,
+                    "y": 124
+                }
+            },
+            {
+                "text": "FUENTE (OFL)",
+                "position": {
+                    "x": 112,
+                    "y": 144
+                },
+                "color": {
+                    "r": 255,
+                    "g": 220,
+                    "b": 0
+                }
+            },
+            {
+                "text": "CODEMAN38",
+                "position": {
+                    "x": 112,
+                    "y": 156
+                }
+            },
+            {
+                "text": "INSPIRADO EN",
+                "position": {
+                    "x": 112,
+                    "y": 184
+                },
+                "color": {
+                    "r": 150,
+                    "g": 150,
+                    "b": 150
+                }
+            },
+            {
+                "text": "BOSCONIAN (1981)",
+                "position": {
+                    "x": 112,
+                    "y": 196
+                },
+                "color": {
+                    "r": 150,
+                    "g": 150,
+                    "b": 150
+                }
+            },
+            {
+                "text": "Z/X:VOLVER",
+                "position": {
+                    "x": 112,
+                    "y": 236
+                },
+                "color": {
+                    "r": 150,
+                    "g": 150,
+                    "b": 150
+                }
+            }
+        ]
+    },
+    "paused": {
+        "text": "JUEGO PAUSADO",
+        "position": {
+            "x": 112,
+            "y": 56
+        },
+        "color": {
+            "r": 255,
+            "g": 220,
+            "b": 0
+        }
+    },
+    "game": {
+        "viewport": {
+            "x": 0,
+            "y": 0,
+            "w": 224,
+            "h": 256
+        },
+        "minimap": {
+            "colors": {
+                "background": {
+                    "r": 148,
+                    "g": 142,
+                    "b": 255
+                },
+                "view": {
+                    "r": 60,
+                    "g": 50,
+                    "b": 170
+                },
+                "player": {
+                    "r": 255,
+                    "g": 255,
+                    "b": 255
+                },
+                "base": {
+                    "r": 0,
+                    "g": 160,
+                    "b": 60
+                },
+                "formation": {
+                    "r": 255,
+                    "g": 60,
+                    "b": 0
+                },
+                "item": {
+                    "r": 255,
+                    "g": 240,
+                    "b": 0
+                },
+                "boss": {
+                    "r": 255,
+                    "g": 40,
+                    "b": 40
+                }
+            }
+        }
+    },
+    "level_start": {
+        "duration": 2.5,
+        "round": {
+            "text": "NIVEL {level} - RONDA {round}",
+            "position": {
+                "x": 112,
+                "y": 96
+            }
+        },
+        "triple_shot": {
+            "text": "¡DISPARO TRIPLE!",
+            "position": {
+                "x": 112,
+                "y": 180
+            },
+            "color": {
+                "r": 120,
+                "g": 220,
+                "b": 255
+            }
+        }
+    },
+    "level_clear": {
+        "text": "NIVEL SUPERADO",
+        "position": {
+            "x": 112,
+            "y": 96
+        },
+        "color": {
+            "r": 255,
+            "g": 220,
+            "b": 0
+        },
+        "duration": 3.0
+    },
+    "cutscene": {
+        "duration": 2.4,
+        "blast_off": {
+            "text": "BLAST OFF!",
+            "position": {
+                "x": 112,
+                "y": 164
+            },
+            "color": {
+                "r": 255,
+                "g": 220,
+                "b": 0
+            }
+        },
+        "blink": 0.15,
+        "sound": "assets/snd/blast_off.ogg",
+        "warp_speed": 900
+    },
+    "pause_menu": {
+        "position": {
+            "x": 56,
+            "y": 96
+        },
+        "options": [
+            {
+                "text": "CONTINUAR",
+                "action": "RESUME"
+            },
+            {
+                "text": "NIVELES",
+                "action": "LEVELS"
+            },
+            {
+                "text": "INSTRUCCIONES",
+                "action": "INSTRUCTIONS"
+            },
+            {
+                "text": "CREDITOS",
+                "action": "CREDITS"
+            },
+            {
+                "text": "SALIR AL TITULO",
+                "action": "QUIT"
+            }
+        ]
+    },
+    "death_to_defeat": 2.5,
+    "press_button": {
+        "text": "PULSA UN BOTON",
+        "position": {
+            "x": 112,
+            "y": 226
+        },
+        "color": {
+            "r": 150,
+            "g": 150,
+            "b": 150
+        }
+    },
+    "press_blink": 0.5,
+    "victory": {
+        "min_time": 1.0,
+        "sound": "assets/snd/fanfare.ogg",
+        "texts": [
+            {
+                "text": "¡VICTORIA!",
+                "position": {
+                    "x": 112,
+                    "y": 44
+                },
+                "color": {
+                    "r": 255,
+                    "g": 220,
+                    "b": 0
+                },
+                "size": 16
+            },
+            {
+                "text": "HAS DESTRUIDO TODAS",
+                "position": {
+                    "x": 112,
+                    "y": 78
+                }
+            },
+            {
+                "text": "LAS BASES ENEMIGAS",
+                "position": {
+                    "x": 112,
+                    "y": 90
+                }
+            },
+            {
+                "text": "PUNTAJE  {score}",
+                "position": {
+                    "x": 112,
+                    "y": 124
+                },
+                "color": {
+                    "r": 120,
+                    "g": 220,
+                    "b": 255
+                }
+            },
+            {
+                "text": "VIDAS USADAS  {lives}",
+                "position": {
+                    "x": 112,
+                    "y": 142
+                }
+            },
+            {
+                "text": "CONTINUACIONES  {continues}",
+                "position": {
+                    "x": 112,
+                    "y": 158
+                }
+            }
+        ]
+    },
+    "defeat": {
+        "countdown": 5,
+        "sound": "assets/snd/game_over.ogg",
+        "texts": [
+            {
+                "text": "GAME OVER",
+                "position": {
+                    "x": 112,
+                    "y": 56
+                },
+                "color": {
+                    "r": 255,
+                    "g": 60,
+                    "b": 60
+                },
+                "size": 16
+            },
+            {
+                "text": "¿CONTINUAR?",
+                "position": {
+                    "x": 112,
+                    "y": 100
+                }
+            },
+            {
+                "text": "Z/A:SI  X/B:NO",
+                "position": {
+                    "x": 112,
+                    "y": 196
+                },
+                "color": {
+                    "r": 150,
+                    "g": 150,
+                    "b": 150
+                }
+            },
+            {
+                "text": "SE RECUPERAN LAS VIDAS",
+                "position": {
+                    "x": 112,
+                    "y": 212
+                },
+                "color": {
+                    "r": 150,
+                    "g": 150,
+                    "b": 150
+                }
+            },
+            {
+                "text": "Y SE PIERDE EL PUNTAJE",
+                "position": {
+                    "x": 112,
+                    "y": 224
+                },
+                "color": {
+                    "r": 150,
+                    "g": 150,
+                    "b": 150
+                }
+            }
+        ],
+        "count": {
+            "text": "{seconds}",
+            "position": {
+                "x": 112,
+                "y": 140
+            },
+            "color": {
+                "r": 255,
+                "g": 220,
+                "b": 0
+            },
+            "size": 24
+        },
+        "press_button": false
+    },
+    "hiscore": {
+        "min_time": 1.0,
+        "sound": "assets/snd/fanfare.ogg",
+        "firework_interval": 0.25,
+        "firework_sprites": [
+            "explosion",
+            "explosion_mine"
+        ],
+        "firework_framerate": 10,
+        "title": {
+            "text": "¡NUEVO RECORD!",
+            "position": {
+                "x": 112,
+                "y": 64
+            },
+            "size": 16
+        },
+        "colors": [
+            {
+                "r": 255,
+                "g": 220,
+                "b": 0
+            },
+            {
+                "r": 255,
+                "g": 120,
+                "b": 0
+            },
+            {
+                "r": 120,
+                "g": 220,
+                "b": 255
+            },
+            {
+                "r": 255,
+                "g": 80,
+                "b": 255
+            }
+        ],
+        "color_time": 0.12,
+        "score": {
+            "text": "{score}",
+            "position": {
+                "x": 112,
+                "y": 110
+            },
+            "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255
+            },
+            "size": 16
+        }
+    },
+    "cheat": {
+        "texts": [
+            {
+                "text": "MODO TRAMPA",
+                "position": {
+                    "x": 4,
+                    "y": 212
+                },
+                "align": "left",
+                "color": {
+                    "r": 255,
+                    "g": 80,
+                    "b": 255
+                }
+            },
+            {
+                "text": "N:RONDA 1:ALERTA 2:ESPIA",
+                "position": {
+                    "x": 4,
+                    "y": 222
+                },
+                "align": "left",
+                "color": {
+                    "r": 200,
+                    "g": 150,
+                    "b": 200
+                }
+            },
+            {
+                "text": "3:FORMACION 4:ESCUDO",
+                "position": {
+                    "x": 4,
+                    "y": 232
+                },
+                "align": "left",
+                "color": {
+                    "r": 200,
+                    "g": 150,
+                    "b": 200
+                }
+            }
+        ],
+        "alert_cycle": [
+            "GREEN",
+            "YELLOW",
+            "RED"
+        ]
+    },
+    "round_clear": {
+        "text": "RONDA SUPERADA",
+        "position": {
+            "x": 112,
+            "y": 96
+        },
+        "color": {
+            "r": 255,
+            "g": 220,
+            "b": 0
+        },
+        "duration": 3.0
+    },
+    "boss_defeated": {
+        "text": "¡JEFE DERROTADO!",
+        "position": {
+            "x": 112,
+            "y": 96
+        },
+        "color": {
+            "r": 255,
+            "g": 220,
+            "b": 0
+        },
+        "duration": 3.5
+    },
+    "attract": {
+        "idle_time": 15.0,
+        "demo_time": 25.0,
+        "after_death": 2.0,
+        "info_time": 8.0,
+        "level": 3,
+        "round": 0,
+        "autopilot": {
+            "avoid_distance": 40,
+            "engage_distance": 120,
+            "orbit_distance": 70,
+            "fire_range": 130,
+            "fire_angle": 25,
+            "fire_interval": 0.3
+        },
+        "texts": [
+            {
+                "text": "DEMO",
+                "position": {
+                    "x": 112,
+                    "y": 40
+                },
+                "color": {
+                    "r": 255,
+                    "g": 220,
+                    "b": 0
+                },
+                "size": 16
+            },
+            {
+                "text": "PULSA UN BOTON",
+                "position": {
+                    "x": 112,
+                    "y": 226
+                },
+                "color": {
+                    "r": 200,
+                    "g": 200,
+                    "b": 200
+                }
+            }
+        ],
+        "blink": 0.5
+    },
+    "music": {
+        "menus": "assets/mus/n_dimensions.ogg",
+        "default_level": "assets/mus/n_dimensions.ogg",
+        "volume": 0.45
+    },
+    "editor": {
+        "camera_speed": 220,
+        "fast_factor": 3,
+        "min_base_distance": 150,
+        "min_spawn_distance": 120,
+        "select_distance": 40,
+        "cursor": {
+            "size": 7,
+            "color": {
+                "r": 255,
+                "g": 255,
+                "b": 0
+            }
+        },
+        "music_options": [
+            "assets/mus/n_dimensions.ogg",
+            "assets/mus/orbital_colossus.ogg"
+        ],
+        "sounds": {
+            "place": "assets/snd/ready.ogg",
+            "remove": "assets/snd/explosion.ogg",
+            "denied": "assets/snd/denied.ogg",
+            "save": "assets/snd/fanfare.ogg"
+        },
+        "header": {
+            "text": "EDITOR  NIVEL {level} - RONDA {round}",
+            "position": {
+                "x": 4,
+                "y": 6
+            },
+            "align": "left",
+            "color": {
+                "r": 255,
+                "g": 220,
+                "b": 0
+            }
+        },
+        "orientation": {
+            "text": "NUEVA BASE: {orientation}",
+            "position": {
+                "x": 4,
+                "y": 16
+            },
+            "align": "left",
+            "color": {
+                "r": 170,
+                "g": 170,
+                "b": 170
+            }
+        },
+        "help": [
+            {
+                "text": "Z:BASE X:BORRAR R:GIRAR",
+                "position": {
+                    "x": 4,
+                    "y": 236
+                },
+                "align": "left",
+                "color": {
+                    "r": 170,
+                    "g": 170,
+                    "b": 170
+                }
+            },
+            {
+                "text": "S:INICIO O:MENU E:JUGAR",
+                "position": {
+                    "x": 4,
+                    "y": 246
+                },
+                "align": "left",
+                "color": {
+                    "r": 170,
+                    "g": 170,
+                    "b": 170
+                }
+            }
+        ],
+        "sidebar": [
+            {
+                "text": "EDITOR",
+                "position": {
+                    "x": 272,
+                    "y": 12
+                },
+                "color": {
+                    "r": 255,
+                    "g": 220,
+                    "b": 0
+                }
+            },
+            {
+                "text": "BASES {bases}",
+                "position": {
+                    "x": 232,
+                    "y": 40
+                },
+                "align": "left"
+            },
+            {
+                "text": "DIFIC. {difficulty}",
+                "position": {
+                    "x": 232,
+                    "y": 56
+                },
+                "align": "left"
+            },
+            {
+                "text": "TRIPLE {triple}",
+                "position": {
+                    "x": 232,
+                    "y": 72
+                },
+                "align": "left"
+            },
+            {
+                "text": "INICIO",
+                "position": {
+                    "x": 232,
+                    "y": 222
+                },
+                "align": "left",
+                "color": {
+                    "r": 170,
+                    "g": 170,
+                    "b": 170
+                }
+            },
+            {
+                "text": "{spawn}",
+                "position": {
+                    "x": 232,
+                    "y": 234
+                },
+                "align": "left",
+                "color": {
+                    "r": 170,
+                    "g": 170,
+                    "b": 170
+                }
+            }
+        ],
+        "message": {
+            "position": {
+                "x": 112,
+                "y": 224
+            },
+            "color": {
+                "r": 120,
+                "g": 220,
+                "b": 255
+            },
+            "duration": 1.5
+        },
+        "menu_title": {
+            "text": "OPCIONES",
+            "position": {
+                "x": 112,
+                "y": 36
+            },
+            "color": {
+                "r": 255,
+                "g": 220,
+                "b": 0
+            }
+        },
+        "menu": {
+            "position": {
+                "x": 28,
+                "y": 64
+            }
+        },
+        "orientations": {
+            "vertical": "VERTICAL",
+            "horizontal": "HORIZONTAL"
+        },
+        "yes_no": [
+            "NO",
+            "SI"
+        ]
+    }
+}

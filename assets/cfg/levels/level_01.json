@@ -1,0 +1,198 @@
+{
+    "music": "assets/mus/n_dimensions.ogg",
+    "triple_shot": false,
+    "world": {
+        "size": {
+            "w": 1408,
+            "h": 1792
+        },
+        "star_layers": [
+            {
+                "number": 60,
+                "size": 1,
+                "blink_period": 3.0,
+                "parallax": 0.15,
+                "brightness": 0.5
+            },
+            {
+                "number": 35,
+                "size": 1,
+                "blink_period": 2.5,
+                "parallax": 0.4,
+                "brightness": 0.8
+            },
+            {
+                "number": 15,
+                "size": 2,
+                "blink_period": 2.0,
+                "parallax": 0.75,
+                "brightness": 1.0
+            }
+        ]
+    },
+    "player_spawn": {
+        "position": {
+            "x": 704,
+            "y": 896
+        },
+        "direction": 0
+    },
+    "obstacles": {
+        "rocks": 40,
+        "mines": 8,
+        "hard_rocks": 0
+    },
+    "alert": {
+        "green_time": 5.0,
+        "base_green_time": 6.0,
+        "red_after": 180
+    },
+    "spy": {
+        "interval": 40
+    },
+    "shield_item": {
+        "interval": 15.0,
+        "chance": 0.7
+    },
+    "rounds": [
+        {
+            "bases": [
+                {
+                    "position": {
+                        "x": 323,
+                        "y": 734
+                    },
+                    "orientation": "vertical"
+                },
+                {
+                    "position": {
+                        "x": 1109,
+                        "y": 1128
+                    },
+                    "orientation": "vertical"
+                }
+            ],
+            "base_behavior": {
+                "core_mode": "open",
+                "core_open_time": 3.0,
+                "core_closed_time": 2.5,
+                "turret_interval": {
+                    "min": 3.0,
+                    "max": 5.0
+                },
+                "spawn_e": false
+            },
+            "enemies": {
+                "spawn_interval": 3.0,
+                "max_enemies": 4,
+                "types": {
+                    "I": 3
+                },
+                "accuracy": 0.3
+            },
+            "formations": {
+                "interval": 45,
+                "shapes": {
+                    "I": 1
+                },
+                "kinds": {
+                    "I": 2
+                }
+            },
+            "difficulty": 1
+        },
+        {
+            "bases": [
+                {
+                    "position": {
+                        "x": 1310,
+                        "y": 1352
+                    },
+                    "orientation": "horizontal"
+                },
+                {
+                    "position": {
+                        "x": 1219,
+                        "y": 941
+                    },
+                    "orientation": "horizontal"
+                }
+            ],
+            "base_behavior": {
+                "core_mode": "open",
+                "core_open_time": 2.95,
+                "core_closed_time": 2.55,
+                "turret_interval": {
+                    "min": 2.93,
+                    "max": 4.9
+                },
+                "spawn_e": false
+            },
+            "enemies": {
+                "spawn_interval": 2.94,
+                "max_enemies": 4,
+                "types": {
+                    "I": 3
+                },
+                "accuracy": 0.32
+            },
+            "formations": {
+                "interval": 44,
+                "shapes": {
+                    "I": 1
+                },
+                "kinds": {
+                    "I": 2
+                }
+            },
+            "difficulty": 1
+        },
+        {
+            "bases": [
+                {
+                    "position": {
+                        "x": 571,
+                        "y": 85
+                    },
+                    "orientation": "horizontal"
+                },
+                {
+                    "position": {
+                        "x": 245,
+                        "y": 306
+                    },
+                    "orientation": "vertical"
+                }
+            ],
+            "base_behavior": {
+                "core_mode": "open",
+                "core_open_time": 2.9,
+                "core_closed_time": 2.6,
+                "turret_interval": {
+                    "min": 2.86,
+                    "max": 4.79
+                },
+                "spawn_e": false
+            },
+            "enemies": {
+                "spawn_interval": 2.89,
+                "max_enemies": 4,
+                "types": {
+                    "I": 3,
+                    "P": 1
+                },
+                "accuracy": 0.34
+            },
+            "formations": {
+                "interval": 43,
+                "shapes": {
+                    "I": 1
+                },
+                "kinds": {
+                    "I": 2
+                }
+            },
+            "difficulty": 2
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "default_hi_score": 20000,
+    "lives": 4,
+    "extra_lives": {
+        "first": 50000,
+        "second": 100000,
+        "every": 100000
+    },
+    "life_icons": {
+        "sprite": "player",
+        "max": 4,
+        "position": {
+            "x": 228,
+            "y": 214
+        },
+        "spacing": 18
+    },
+    "sound_extra_life": "assets/snd/ready.ogg"
+}

@@ -1,0 +1,71 @@
+{
+    "duration": 3.0,
+    "start_charges": 1,
+    "max_charges": 3,
+    "bubble": {
+        "radius": 13,
+        "width": 2,
+        "color": {
+            "r": 120,
+            "g": 220,
+            "b": 255
+        },
+        "blink_time": 1.0,
+        "blink": 0.08
+    },
+    "item": {
+        "radius": 6,
+        "color": {
+            "r": 120,
+            "g": 220,
+            "b": 255
+        },
+        "core_color": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+        },
+        "hitbox": {
+            "w": 14,
+            "h": 14
+        },
+        "lifetime": 20.0,
+        "blink_time": 5.0,
+        "blink": 0.15,
+        "distance": {
+            "min": 120,
+            "max": 300
+        }
+    },
+    "sounds": {
+        "activate": "assets/snd/shockwave.ogg",
+        "denied": "assets/snd/denied.ogg",
+        "pickup": "assets/snd/ready.ogg"
+    },
+    "hud": {
+        "text": "ESCUDO {charges}",
+        "active_text": "ESCUDO ACTIVO",
+        "position": {
+            "x": 4,
+            "y": 250
+        },
+        "align": "left",
+        "colors": {
+            "ready": {
+                "r": 120,
+                "g": 220,
+                "b": 255
+            },
+            "empty": {
+                "r": 110,
+                "g": 110,
+                "b": 110
+            },
+            "active": {
+                "r": 255,
+                "g": 255,
+                "b": 255
+            }
+        }
+    }
+}

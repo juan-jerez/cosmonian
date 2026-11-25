@@ -1,0 +1,120 @@
+{
+    "points": 1500,
+    "body": [
+        {
+            "sprite": "base_arc",
+            "offset": {
+                "x": -27,
+                "y": -21
+            },
+            "flip": false
+        },
+        {
+            "sprite": "base_arc",
+            "offset": {
+                "x": 14,
+                "y": -21
+            },
+            "flip": true
+        },
+        {
+            "sprite": "base_connector",
+            "offset": {
+                "x": -19,
+                "y": -2
+            },
+            "flip": false
+        },
+        {
+            "sprite": "base_connector",
+            "offset": {
+                "x": 11,
+                "y": -2
+            },
+            "flip": true
+        }
+    ],
+    "turret": {
+        "sprite": "base_turret",
+        "points": 200,
+        "hitbox": {
+            "w": 14,
+            "h": 14
+        },
+        "frames": {
+            "idle": 0,
+            "open": 1,
+            "firing": 2,
+            "destroyed": 3
+        },
+        "positions": [
+            {
+                "x": -12,
+                "y": -24
+            },
+            {
+                "x": 12,
+                "y": -24
+            },
+            {
+                "x": -28,
+                "y": 0
+            },
+            {
+                "x": 28,
+                "y": 0
+            },
+            {
+                "x": -12,
+                "y": 24
+            },
+            {
+                "x": 12,
+                "y": 24
+            }
+        ],
+        "range": 150,
+        "open_time": 0.35,
+        "firing_time": 0.15
+    },
+    "core": {
+        "sprite": "base_core",
+        "hitbox": {
+            "w": 16,
+            "h": 16
+        },
+        "frames": {
+            "open": 0,
+            "half_open": 1,
+            "almost_closed": 2,
+            "closed": 3
+        },
+        "frame_time": 0.12
+    },
+    "bullet": {
+        "size": {
+            "w": 3,
+            "h": 3
+        },
+        "color": {
+            "r": 255,
+            "g": 120,
+            "b": 90
+        },
+        "velocity": 110,
+        "lifetime": 3.0,
+        "hitbox": {
+            "w": 5,
+            "h": 5
+        }
+    },
+    "destruction": {
+        "explosions": 8,
+        "interval": 0.06,
+        "radius": 20
+    },
+    "screen_shake": {
+        "duration": 0.35,
+        "intensity": 4
+    }
+}

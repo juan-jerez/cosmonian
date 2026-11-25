@@ -1,0 +1,37 @@
+# Toda la música
+
+* Música creada por Centurion of War
+* Licencia: CC0
+* https://opengameart.org/users/centurionofwar
+
+# Todas las imágenes
+
+ * Creadas por Diana Pacheco
+ * Licencia: CC-BY-4.0
+
+# Fuente: PressStart2P
+
+ * Creada por CodeMan38
+ * Licencia: SIL Open Font license 1.1
+ * URL: https://fonts.google.com/specimen/Press+Start+2P
+ * URL2: https://www.dafont.com/press-start-2p.font
+
+# Nave del jefe (assets/img/jefe.png, original "DurrrSpaceShip.png")
+
+ * Creada por Tummyache
+ * Licencia: dominio público
+
+# Música del juego (assets/mus/n_dimensions.ogg)
+
+ * "n-Dimensions (Main Theme - Retro Ver.)", creada por Matthew Pablo
+ * Licencia: CC-BY 3.0
+ * URL: https://opengameart.org/node/18906
+ * Web del autor: http://www.matthewpablo.com
+ * Nota: las pistas de Centurion of War incluidas en los recursos del curso no se usan.
+
+# Música del jefe final (assets/mus/orbital_colossus.ogg)
+
+ * "Orbital Colossus", creada por Matthew Pablo
+ * Licencia: CC-BY 3.0
+ * URL: https://opengameart.org/node/150061
+ * Web del autor: http://www.matthewpablo.com

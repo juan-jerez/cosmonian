@@ -1,0 +1,48 @@
+{
+    "levels": [
+        {
+            "name": "NIVEL 1",
+            "file": "assets/cfg/levels/level_01.json"
+        },
+        {
+            "name": "NIVEL 2",
+            "file": "assets/cfg/levels/level_02.json"
+        },
+        {
+            "name": "NIVEL 3",
+            "file": "assets/cfg/levels/level_03.json"
+        },
+        {
+            "name": "NIVEL 4",
+            "file": "assets/cfg/levels/level_04.json"
+        },
+        {
+            "name": "NIVEL 5",
+            "file": "assets/cfg/levels/level_05.json"
+        },
+        {
+            "name": "NIVEL 6",
+            "file": "assets/cfg/levels/level_06.json"
+        },
+        {
+            "name": "NIVEL 7",
+            "file": "assets/cfg/levels/level_07.json"
+        },
+        {
+            "name": "NIVEL 8",
+            "file": "assets/cfg/levels/level_08.json"
+        },
+        {
+            "name": "NIVEL 9",
+            "file": "assets/cfg/levels/level_09.json"
+        },
+        {
+            "name": "NIVEL 10",
+            "file": "assets/cfg/levels/level_10.json"
+        },
+        {
+            "name": "NIVEL JEFE",
+            "file": "assets/cfg/levels/level_jefe.json"
+        }
+    ]
+}
