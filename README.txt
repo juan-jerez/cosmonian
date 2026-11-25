@@ -5,6 +5,9 @@ https://juan-jerez.itch.io/cosmonian
 
 Código fuente: https://github.com/juan-jerez/cosmonian
 
+Vídeo de presentación:
+https://uniandes-my.sharepoint.com/:v:/g/personal/j_jerezz_uniandes_edu_co/IQChy5KaYq6eTJHv9RSY0Nj1ARex0codOWLuc04Vm7l3YvM?e=g9cdPH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 Controles (teclado / mando):
   Flechas / cruceta o stick   menús: mover el cursor / juego: dirección de la nave
   Z, Enter / A                aceptar / disparar (dos balas: delante y detrás)

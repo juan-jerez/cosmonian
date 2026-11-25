@@ -6,7 +6,7 @@ Esper siguiendo la arquitectura ECS.
 - **Jugar en el navegador:** https://juan-jerez.itch.io/cosmonian
 - **Documento de arquitectura y post-mortem:** [docs/arquitectura_y_postmortem.pdf](docs/arquitectura_y_postmortem.pdf)
 - **Post-mortem individual:** [docs/postmortem_individual.pdf](docs/postmortem_individual.pdf)
-- **Vídeo de presentación:** [docs/presentacion_video.mp4](docs/presentacion_video.mp4)
+- **Vídeo de presentación:** [verlo en línea (SharePoint)](https://uniandes-my.sharepoint.com/:v:/g/personal/j_jerezz_uniandes_edu_co/IQChy5KaYq6eTJHv9RSY0Nj1ARex0codOWLuc04Vm7l3YvM?e=g9cdPH&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) · [descargarlo del repositorio](docs/presentacion_video.mp4)
 - **Diapositivas de la presentación:** [docs/presentacion_diapositivas.pdf](docs/presentacion_diapositivas.pdf)
 
 ## Estructura
