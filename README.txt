@@ -1,4 +1,9 @@
-COSMONIAN - Proyecto final (en desarrollo)
+COSMONIAN - Proyecto final
+
+Juego publicado en itch.io (versión web, se juega en el navegador):
+https://juan-jerez.itch.io/cosmonian
+
+Código fuente: https://github.com/juan-jerez/cosmonian
 
 Controles (teclado / mando):
   Flechas / cruceta o stick   menús: mover el cursor / juego: dirección de la nave

@@ -1,7 +1,11 @@
 # COSMONIAN - Proyecto final
 
 Juego de naves con las mecánicas de *Bosconian* (versión Sharp X68000), hecho con Pygame y
-Esper siguiendo la arquitectura ECS. En desarrollo.
+Esper siguiendo la arquitectura ECS.
+
+- **Jugar en el navegador:** https://juan-jerez.itch.io/cosmonian
+- **Documento de arquitectura y post-mortem:** [docs/arquitectura_y_postmortem.pdf](docs/arquitectura_y_postmortem.pdf)
+- **Post-mortem individual:** [docs/postmortem_individual.pdf](docs/postmortem_individual.pdf)
 
 ## Estructura
 
